@@ -302,7 +302,7 @@ import ctypes
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 ```
 
-**路径问题**：用户项目在 `D:\project\`，不在 `C:\Users\...`，所有路径都要用绝对路径。
+**路径问题**：用户项目目录（自定义），所有路径建议使用绝对路径而不是依赖 `C:\Users\...` 默认位置。
 
 ---
 
